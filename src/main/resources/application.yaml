@@ -1,0 +1,8 @@
+app:
+  client-apis:
+    played-recording-api:
+      base-path:                           http://playlist-playedrecording-management.gvl.svc.cluster.local
+
+spring:
+  application:
+    name:                                  '@project.artifactId@'
